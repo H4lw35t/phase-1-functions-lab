@@ -6,13 +6,12 @@ function distanceFromHqInBlocks(someValue) {
   
   function distanceFromHqInFeet(someValue) {
     const blocks = distanceFromHqInBlocks(someValue);
-    return blocks * 264; // Assuming 1 block = 264 feet
-  }
+    return blocks * 264; 
   
   
   function distanceTravelledInFeet(start, destination) {
     const distance = Math.abs(destination - start);
-    return distance * 264; // Assuming 1 block = 264 feet
+    return distance * 264; 
   }
   
   
